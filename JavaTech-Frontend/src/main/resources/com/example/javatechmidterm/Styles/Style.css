@@ -1,0 +1,215 @@
+.background {
+    -fx-background-color: linear-gradient(#1e1e1e, #333333);
+}
+
+.labels {
+    -fx-font-size: 14;
+    -fx-text-fill: white; /* Adjust text color for labels */
+}
+
+/* Adjust text color for text fields */
+.text-field {
+    -fx-text-fill: black;
+    -fx-background-color: #5a5a5a;
+}
+
+.sign-in-button {
+    -fx-background-color: linear-gradient(#4CAF50, #2E8B57);
+    -fx-text-fill: white;
+}
+.sign-in-button:hover {
+    -fx-background-color: #2E8B57;
+}
+
+
+.delete-button {
+    -fx-background-color: linear-gradient(#FF6347, #B22222);
+    -fx-text-fill: white;
+}
+.delete-button:hover {
+    -fx-background-color: #FF4500;
+}
+
+
+.sign-up-button {
+    -fx-background-color: linear-gradient(#008CBA, #00688B);
+    -fx-text-fill: white;
+}
+.sign-up-button:hover {
+    -fx-background-color: #00688B;
+}
+
+
+.dashboard-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #dddddd;
+}
+
+.info-container {
+    -fx-padding: 10px 0;
+}
+
+.info-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #dddddd; /* Light gray color */
+}
+
+.info-text {
+    -fx-font-size: 14px;
+    -fx-text-fill: #dddddd; /* Light gray color */
+}
+
+
+.dashboard-button {
+    -fx-background-color: linear-gradient(#4CAF50, #2E8B57);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+}
+
+.dashboard-button:hover {
+    -fx-background-color: #2E8B57;
+}
+
+
+.dialog-pane {
+    -fx-background-color: #333333; /* Background color */
+    -fx-text-fill: #ffffff;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #333333; /* Header color */
+}
+.dialog-pane .header-panel .label{
+    -fx-background-color: #333333; /* Header color */
+    -fx-text-fill: #ffffff;
+}
+
+.dialog-pane .content.label {
+    -fx-font-size: 14px; /* Font size for content */
+    -fx-text-fill: #ffffff; /* Text color for content */
+}
+
+.dialog-pane .header-panel .header {
+    -fx-text-fill: #ffffff; /* Header text color */
+}
+
+.dialog-pane .button-bar {
+    -fx-background-color: #333333; /* Background color for buttons */
+    -fx-text-fill: #ffffff;
+}
+
+.dialog-pane .button-bar .button {
+    -fx-background-color: linear-gradient(#4CAF50, #2E8B57); /* Button background color */
+    -fx-text-fill: white; /* Button text color */
+}
+
+.dialog-pane .button-bar .button:hover {
+    -fx-background-color: #2E8B57; /* Button background color on hover */
+    -fx-text-fill: white; /* Button text color on hover */
+}
+
+
+.dashboard-container {
+}
+
+/* Add styling for TableView */
+.table-view {
+    -fx-control-inner-background: #333333; /* Set background color to black */
+    -fx-table-cell-border-color: #ffffff; /* Set cell border color to white */
+    -fx-table-header-border-color: #ffffff; /* Set header border color to white */
+    -fx-text-background-color: #ffffff; /* Set text background color to black */
+    -fx-text-fill: #ffffff; /* Set text color to white */
+}
+
+.table-view .table-cell:hover {
+    -fx-background-color: #2E8B57; /* Set hover background color */
+}
+
+.table-view .column-header {
+    -fx-background-color: #000000; /* Set background color of headers */
+    -fx-text-fill: #ffffff; /* Set text color of headers */
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+/* Add styling for ListView */
+.list-view {
+    -fx-control-inner-background: #333333; /* Set background color */
+    -fx-text-fill: white; /* Set text color */
+    -fx-background-color: #333333;
+    -fx-list-cell-border-color: #ffffff;
+    -fx-border-color: black;
+    -fx-border-width: 10px;
+}
+
+/* Add styling for ListView cells */
+/* Add styling for ListView cells */
+.list-view .list-cell {
+    /*-fx-border-color: white; /* Set border color */
+    /*-fx-border-width: 0 0 1 0; /* Set border width (bottom only) */
+    -fx-padding: 10px; /* Add padding to increase cell size */
+    -fx-font-size: 16px; /* Increase font size */
+}
+
+/* Add hover effect for ListView cells */
+.list-view .list-cell:hover {
+    -fx-background-color: #2E8B57; /* Set hover background color */
+}
+
+.list-cell.reserved:hover {
+    -fx-background-color: grey; /* Darker red */
+}
+
+.dialog-pane {
+    -fx-background-color: linear-gradient(#1e1e1e, #333333); /* Set background color */
+    -fx-text-fill: white; /* Set text color */
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #333333; /* Header color */
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: white; /* Header text color */
+}
+
+.dialog-pane .content.label {
+    -fx-text-fill: white; /* Text color */
+}
+
+.dialog-pane .button-bar .button {
+    -fx-background-color: linear-gradient(#4CAF50, #2E8B57); /* Button background color */
+    -fx-text-fill: white; /* Button text color */
+}
+
+.dialog-pane .button-bar .button:hover {
+    -fx-background-color: #2E8B57; /* Button background color on hover */
+    -fx-text-fill: white; /* Button text color on hover */
+}
+
+.grid-pane-background {
+    -fx-background-color: #333333;
+}
+
+.list-cell.reserved {
+    -fx-background-color: #b30000; /* Darker red */
+}
+
+.list-cell.reservedByMe {
+    -fx-background-color: #b30000; /* Darker red */
+}
+
+.list-cell.notReserved {
+    -fx-background-color: #004d99; /* Darker blue */
+}
+
+.list-cell {
+    -fx-background-color: #333333;
+}

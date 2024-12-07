@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="bPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" styleClass="background" stylesheets="@../Styles/Style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javatechmidterm.Controllers.DashboardController">
+   <center>
+      <VBox alignment="CENTER" spacing="20.0" styleClass="dashboard-container">
+         <Label styleClass="dashboard-title" text="Dashboard" />
+         <VBox alignment="CENTER" spacing="10.0" styleClass="info-container">
+            <HBox alignment="CENTER" spacing="10.0">
+               <Label styleClass="info-label" text="Username:" />
+               <TextField fx:id="usernameField" styleClass="info-text" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="10.0">
+               <Label styleClass="info-label" text="Full Name:" />
+               <TextField fx:id="fullNameField" styleClass="info-text" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="10.0">
+               <Label styleClass="info-label" text="Phone Number:" />
+               <TextField fx:id="phoneNumberField" styleClass="info-text" />
+            </HBox>
+         </VBox>
+         <VBox alignment="CENTER" spacing="20.0">
+            <Button onAction="#viewJoinedTimeSlots" styleClass="dashboard-button" text="View Joined Time Groups" />
+            <Button onAction="#manageCreatedTimeSlots" styleClass="dashboard-button" text="Manage Created Time Groups" />
+            <Button onAction="#manageAccount" styleClass="dashboard-button" text="Manage Account" />
+         </VBox>
+      </VBox>
+   </center>
+</BorderPane>

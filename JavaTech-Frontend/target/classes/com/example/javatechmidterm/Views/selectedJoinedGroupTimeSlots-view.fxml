@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane styleClass="background" stylesheets="@../Styles/Style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javatechmidterm.Controllers.SelectedJoinedGroupTimeSlotsController">
+    <top>
+        <VBox alignment="CENTER" prefHeight="102.0" prefWidth="799.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label styleClass="dashboard-title" text="Time Slots" />
+                <HBox alignment="CENTER" prefHeight="37.0" prefWidth="799.0" spacing="50.0">
+                    <children>
+                        <Button fx:id="backButton" mnemonicParsing="false" onAction="#backToDashboard" styleClass="sign-up-button " text="Back" />
+                  <DatePicker fx:id="datePicker" onAction="#datePicked" />
+                  <Button mnemonicParsing="false" onAction="#leaveTimeGroup" prefHeight="24.0" prefWidth="148.0" styleClass="delete-button" text="Leave Time Group" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </top>
+   <center>
+      <ListView fx:id="listView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

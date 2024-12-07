@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="vbox" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" spacing="20.0" styleClass="background" stylesheets="@../Styles/Style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javatechmidterm.Controllers.LoginController">
+    <children>
+        <Label prefWidth="100.0" styleClass="labels" text="Welcome!" />
+        <HBox alignment="CENTER" spacing="10.0">
+            <TextField fx:id="usernameField" promptText="Username" />
+        </HBox>
+        <HBox alignment="CENTER" spacing="10.0">
+            <PasswordField fx:id="passwordField" promptText="Password" />
+        </HBox>
+        <HBox alignment="CENTER" spacing="10.0">
+            <Button fx:id="signInBtn" onAction="#signIn" styleClass="sign-in-button" text="Sign In" />
+            <Button fx:id="signUpBtn" onAction="#signUp" styleClass="sign-up-button" text="Sign Up" />
+        </HBox>
+    </children>
+    <opaqueInsets>
+        <Insets />
+    </opaqueInsets>
+</VBox>
